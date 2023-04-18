@@ -2,6 +2,8 @@
 
 This repo is for exercising how to make setup.py.
 
+- Reference: https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/
+
 Scenario
 ---
 This project includes two packages, pklearn and pklearn2.
@@ -24,7 +26,7 @@ package_learn_project/
 
 Exercise #1 
 ---
-Before executing the followings, you *must* remove a directory named 'build' if it exists.
+Before executing the followings, you **must** remove a directory named 'build' if it exists.
 
 ```bash
 python setup.py bdist_wheel
@@ -42,7 +44,7 @@ with resource_stream('pklearn2', 'data'twopows.csv') as f:
 
 Exercise #2
 ---
-Before executing the followings, you *must* remove a directory named 'build' if it exists.
+Before executing the followings, you **must** remove a directory named 'build' if it exists.
 
 ```bash
 python setup2.py bdist_wheel
